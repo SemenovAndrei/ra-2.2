@@ -7,11 +7,13 @@ function ShopCard(props) {
 
   return (
     <div className="shopCard__card">
-      <img className="shopCard__item shopCard__img" src={card.img} alt={card.name}></img>
       <h2 className="shopCard__item shopCard__title">{card.name}</h2>
       <div className="shopCard__item shopCard__color">{card.color}</div>
-      <div className="shopCard__item shopCard__price">{card.price}</div>
-      <button className="shopCard__item shopCard__btn">add to cart</button>
+      <img className="shopCard__item shopCard__img" src={card.img} alt={card.name}></img>
+      <div className="shopCard__item shopCard__inner">
+        <div className="shopCard__price">{card.price}</div>
+        <button className="shopCard__btn">add to cart</button>
+      </div>
     </div>
   )
 }

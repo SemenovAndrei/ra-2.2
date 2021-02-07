@@ -1,28 +1,32 @@
 .shopCard__card {
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 26%;
+  padding: 3%;
+  margin: 1% 0;
   background-color: rgb(245, 245, 245);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.33);
 }
 
 .shopCard__item {
-  width: 22%;
-}
-
-.shopCard__item:last-child {
-  width: 10%;
+  width: 100%;
 }
 
 .shopCard__img {
+  object-fit: cover;
   display: block;
-  width: 100px;
-  height: 100px;
+  /* width: 200px; */
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgb(218, 218, 218);
 }
 
 .shopCard__title {
   text-transform: uppercase;
+}
+
+.shopCard__inner {
+  display: flex;
+  justify-content: space-between;
 }
 
 .shopCard__color,
@@ -36,8 +40,10 @@
 }
 
 .shopCard__btn {
+  width: 38%;
+  cursor: pointer;
   padding: 10px;
   color: red;
-  border: 1px dashed rgb(105, 0, 243);
+  border: 1px dashed red;
   border-radius: 20px;
 }

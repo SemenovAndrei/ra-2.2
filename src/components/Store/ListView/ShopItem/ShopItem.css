@@ -36,6 +36,7 @@
 }
 
 .shopItem__btn {
+  cursor: pointer;
   padding: 10px;
   color: red;
   border: 1px dashed red;
