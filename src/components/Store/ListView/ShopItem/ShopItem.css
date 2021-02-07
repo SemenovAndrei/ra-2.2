@@ -1,0 +1,43 @@
+.shopItem__card {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+}
+
+.shopItem__item {
+  width: 22%;
+}
+
+.shopItem__item:last-child {
+  width: 10%;
+}
+
+.shopItem__img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(218, 218, 218);
+}
+
+.shopItem__title {
+  text-transform: uppercase;
+}
+
+.shopItem__color,
+.shopItem__price,
+.shopItem__btn {
+  font-size: 1.5rem;
+}
+
+.shopItem__price::before {
+  content: "$";
+}
+
+.shopItem__btn {
+  padding: 10px;
+  color: red;
+  border: 1px dashed red;
+  border-radius: 20px;
+}

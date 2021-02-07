@@ -1,0 +1,12 @@
+.store__container {
+  padding: 30px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.store__icon {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-end;
+}

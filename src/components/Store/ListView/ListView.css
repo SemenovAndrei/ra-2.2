@@ -1,0 +1,7 @@
+.listView__container div{
+  margin-bottom: 10px;
+}
+
+.listView__container div:last-child{
+  margin-bottom: 0;
+}

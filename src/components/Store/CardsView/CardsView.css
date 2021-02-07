@@ -1,0 +1,7 @@
+.cardView__container div{
+  margin-bottom: 10px;
+}
+
+.cardView__container div:last-child{
+  margin-bottom: 0;
+}
